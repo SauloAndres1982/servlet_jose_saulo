@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestión de Clientes</title>
+</head>
+<body>
+    <h2>Agregar Nuevo Cliente</h2>
+    <form action="MiServlet" method="post">
+        <label>Nombre: </label><input type="text" name="nombre" required><br>
+        <label>Correo: </label><input type="email" name="correo" required><br>
+        <label>Teléfono: </label><input type="text" name="telefono" required><br>
+        <input type="submit" value="Guardar Cliente">
+    </form>
+    <hr>
+    <a href="MiServlet">Ver Lista de Clientes</a>
+</body>
+</html>
